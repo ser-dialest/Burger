@@ -9,7 +9,7 @@ var orm = {
         });
     },
     insertOne: function(table, columns, values, resFunc) {
-        var sql = `INSERT INTO ${table} ${columns} VALUES ${values};`;
+        var sql = `INSERT INTO ${table} (${columns.toString()}) VALUES (${values.toString()});`;
         connection.query(sql, function(error, result) {
             if (error) { throw error; };
             resFunc(result);

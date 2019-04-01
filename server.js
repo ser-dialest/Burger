@@ -6,11 +6,19 @@ var app = express();
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static("app/public"));
+app.use(express.static("public"));
 
-require("./app/routing/apiRoutes")(app);
-require("./app/routing/htmlRoutes")(app);
+// Set Handlebars.
+var exphbs = require("express-handlebars");
+app.engine("handlebars", exphbs({ defaultLayout: "main" }));
+app.set("view engine", "handlebars");
 
+// Import routes and give the server access to them.
+var routes = require("./controllers/burgers_controller.js");
+
+app.use(routes);
+
+// Start server
 app.listen(PORT, function() {
-    console.log("App is listening at port " + PORT);
+    console.log("Server is listening at port " + PORT);
 });

@@ -130,19 +130,19 @@ When trying to connect remotely to your Heroku database on an open network such 
 
 1. Inside your `burger` directory, create a folder named `views`.
 
-   * Create the `index.handlebars` file inside `views` directory.
+   <!-- * Create the `index.handlebars` file inside `views` directory. -->
 
-   * Create the `layouts` directory inside `views` directory.
+   <!-- * Create the `layouts` directory inside `views` directory. -->
 
-     * Create the `main.handlebars` file inside `layouts` directory.
+     <!-- * Create the `main.handlebars` file inside `layouts` directory. -->
 
-     * Setup the `main.handlebars` file so it's able to be used by Handlebars.
+     <!-- * Setup the `main.handlebars` file so it's able to be used by Handlebars. -->
 
-     * Setup the `index.handlebars` to have the template that Handlebars can render onto.
+     <!-- * Setup the `index.handlebars` to have the template that Handlebars can render onto. -->
 
      * Create a button in `index.handlebars` that will submit the user input into the database.
 
-#### Directory structure
+<!-- #### Directory structure
 
 All the recommended files and directories from the steps above should look like the following structure:
 
@@ -180,7 +180,7 @@ All the recommended files and directories from the steps above should look like 
     ├── index.handlebars
     └── layouts
         └── main.handlebars
-```
+``` -->
 
 ### Reminder: Submission on BCS
 
@@ -188,11 +188,6 @@ All the recommended files and directories from the steps above should look like 
 
 - - -
 
-### Minimum Requirements
-
-Attempt to complete homework assignment as described in instructions. If unable to complete certain portions, please pseudocode these portions to describe what remains to be completed. Hosting on Heroku and adding a README.md are required for this homework. In addition, add this homework to your portfolio, more information can be found below.
- 
-- - -
 
 ### Hosting on Heroku
 

@@ -101,7 +101,7 @@ When trying to connect remotely to your Heroku database on an open network such 
 
    * Export the ORM object in `module.exports`. -->
 
-#### Model setup
+<!-- #### Model setup
 
 * Inside your `burger` directory, create a folder named `models`.
 
@@ -111,7 +111,7 @@ When trying to connect remotely to your Heroku database on an open network such 
 
     * Also inside `burger.js`, create the code that will call the ORM functions using burger specific input for the ORM.
 
-    * Export at the end of the `burger.js` file.
+    * Export at the end of the `burger.js` file. -->
 
 #### Controller setup
 

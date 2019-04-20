@@ -1,0 +1,41 @@
+body {
+    background-color: #32c704;
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    line-height: 3em;
+}
+
+h2 {
+    text-align: center;
+}
+
+.jumbotron {
+    padding: 2rem;
+    background-color: #ffcd98;
+}
+
+.btn-danger {
+    background-color: #ea0802;
+}
+
+.btn-warning {
+    background-color: #ffdd42;
+}
+
+.card-body {
+    background-color: #792b1c;
+    color: white;
+    margin: 1rem;
+    border-radius: 5px;
+}
+
+#addBurger {
+    display: flex;
+    justify-content: center;
+}
